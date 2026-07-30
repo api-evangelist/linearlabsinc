@@ -1,20 +1,47 @@
 aid: linearlabsinc
-name: Linearlabsinc
-description: Linearlabsinc is a company surfaced as a portfolio company of kindred-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Linear Labs
+description: Linear Labs is an industrial motor technology company headquartered in Fort Worth, Texas,
+  building high-torque motor systems for wind, nuclear, pumps, actuators, mining, and defense
+  applications. Its patented Hunstable Electric Turbine (HET) permanent-magnet architecture uses a
+  circumferential flux design the company states delivers 2x torque density, 97% peak efficiency, and
+  50% weight reduction versus conventional motors, scaling from 10 kW to 2.2 MW. Its PitchPro 2000 is a
+  complete pitch-system replacement for aging GE 1.5 wind turbines, pairing the HET motor with KEBA
+  drive electronics, a Bachmann PLC controller, and ultracapacitor backup power. Linear Labs is a
+  hardware manufacturer and publishes no public API, developer portal, or machine-readable technical
+  surface; this profile is maintained for network coverage and identity only.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://linearlabsinc.com/assets/logo.png
 url: https://raw.githubusercontent.com/api-evangelist/linearlabsinc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - kindred-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: hardware-manufacturer-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Electric Motors
+- Industrial
+- Hardware
+- Manufacturing
+- Energy
+- Wind Energy
+- Defense
+- Nuclear
+- Mining
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/linearlabsinc-domain-security.yml
 - type: Website
   url: https://linearlabsinc.com/
+- type: Email
+  url: mailto:sales@linearlabsinc.com
+- type: Twitter
+  url: https://x.com/linearlabsinc
+- type: YouTube
+  url: https://www.youtube.com/@linearlabsinc
+- type: FaceBook
+  url: https://www.facebook.com/LinearLabsInc
+- type: Instagram
+  url: https://www.instagram.com/linearlabsmotors/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
