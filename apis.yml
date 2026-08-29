@@ -9,6 +9,17 @@ description: Linear Labs is an industrial motor technology company headquartered
   drive electronics, a Bachmann PLC controller, and ultracapacitor backup power. Linear Labs is a
   hardware manufacturer and publishes no public API, developer portal, or machine-readable technical
   surface; this profile is maintained for network coverage and identity only.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
